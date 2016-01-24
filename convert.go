@@ -7,9 +7,9 @@ import (
 )
 
 func main() {
-	t1 := "11/20/1982 20:07:34.830"
-	t2 := Convert(t1, "01/02/2006 15:04:05.000", 110)
-	fmt.Println(t2)
+	t1 := "7/21/1980 20:07:34.830"
+	t2 := Convert(t1, "1/2/2006 15:04:05.000", 110)
+	fmt.Println(t2) // 1980-07-21
 }
 
 func Convert(date, format string, code int) string {
