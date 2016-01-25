@@ -6,13 +6,9 @@ import (
 	"time"
 )
 
-func main() {
-	t1 := "7/21/1980 20:07:34.830"
-	t2 := Convert(t1, "1/2/2006 15:04:05.000", 110)
-	fmt.Println(t2) // 1980-07-21
-}
-
 func Convert(date, format string, code int) string {
+	// VALIDATE!!!! HERE!!!
+
 	t, _ := time.Parse(format, date)
 	switch code {
 	case 0, 100:
