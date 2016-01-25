@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func Validate(date string) (int, error) {
+func Validate(date string) (int, error) { // Change error to bool????
 	for code, format := range StandardFormats {
 		_, err := time.Parse(format, date)
 		if err == nil {

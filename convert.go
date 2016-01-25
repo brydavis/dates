@@ -7,8 +7,6 @@ import (
 )
 
 func Convert(date, format string, code int) string {
-	// VALIDATE!!!! HERE!!!
-
 	t, _ := time.Parse(format, date)
 	switch code {
 	case 0, 100:

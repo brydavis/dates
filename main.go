@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	// t1 := "7/21/1980 20:07:34.830"
-	t1 := "21/07/80 10:07:34.830AM"
+	// t1 := "7/21/1980 20:07:34.830" // Original datetime is non-standard (NS) format
+	t1 := "21/07/80 10:07:34.830AM" // Original datetime is standard (S) format
 
 	code, err := Validate(t1)
 	if err != nil {
