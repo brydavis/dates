@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 )
-// Just a comment
+
 func Convert(date, format string, code int) string {
 	t, _ := time.Parse(format, date)
 	switch code {
