@@ -26,4 +26,4 @@ func main() {
 <br>
 
 <hr>
-&copy; 2016 [**MIT License**](https://github.com/openwonk/mit_license)
+&copy; 2016 [MIT License](https://github.com/openwonk/mit_license)
